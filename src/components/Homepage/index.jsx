@@ -30,11 +30,11 @@ function Homepage() {
 	return (
 		<div
 			className="bg-pokemon flex flex-col justify-center items-center"
-			style={{ backgroundColor: '#5DB9FF' }}
+			style={{ backgroundColor: '#60BFD5' }}
 		>
 			<img
 				className="w-1/3"
-				src="http://tylerhawkins.info/pokedex-slash-graphql/build/static/media/pokemon-logo.9253c457.png"
+				src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/07/pokemon-gotta-catch-em-all-slogan.jpg"
 			/>
 			<InfiniteScroll
 				className="w-full grid grid-cols-4 gap-12 justify-items-center"

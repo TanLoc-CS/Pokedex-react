@@ -21,7 +21,7 @@ function Pokemon() {
 		<div>
 			<div
 				className="bg-pokemon flex flex-col"
-				style={{ backgroundColor: '#5DB9FF', width: '1536px' }}
+				style={{ backgroundColor: '#60BFD5', width: '1536px' }}
 			>
 				<Info name={name} id={id} url={url}></Info>
 				<Tabs url={url}></Tabs>
