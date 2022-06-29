@@ -32,7 +32,10 @@ function Homepage() {
 			className="bg-pokemon flex flex-col justify-center items-center"
 			style={{ backgroundColor: '#5DB9FF' }}
 		>
-			<img className="w-1/3" src="../../images/Home-Logo.png" />
+			<img
+				className="w-1/3"
+				src="http://tylerhawkins.info/pokedex-slash-graphql/build/static/media/pokemon-logo.9253c457.png"
+			/>
 			<InfiniteScroll
 				className="w-full grid grid-cols-4 gap-12 justify-items-center"
 				dataLength={offset}
